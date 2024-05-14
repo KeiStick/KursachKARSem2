@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LUSTRA.BY</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ribeye&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="icon" href="../Новая папка/img/document.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <header class="header">
+          <div class="container">
+            <nav class="navbar">
+              <div class="navbar__logo-and-search">
+                <a href="main.html">
+                  <img class="logo" src="./img/люстрак.jpg" alt="logo"/>
+                </a>
+                <input placeholder="Поиск..." class="navbar__search" name="text" type="text">
+              </div>
+              <div class="navbar__buttons">
+                <button class="button"><a href="main2.html">Каталог</a></button>
+                <button id="openMenuBtn" class="button"><a href="#">Личный<br> кабинет</a></button>
+              </div>
+            </nav>
+            <div class="line"></div>
+          </div>
+        </header>
+        <main class="main">
+          <!-- Добавляем всплывающее меню здесь -->
+        <div id="popupMenu" class="popup-menu">
+          <form class="menu-content" id="menuForm">
+            <label for="login">Логин</label>
+            <input type="text" id="login" name="login" required><br>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" required><br>
+            <label for="confirmPassword">Подтвердите пароль</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="fullName">Полное имя</label>
+            <input type="text" id="fullName" name="fullName" required><br>
+            <button type="submit">Зарегистрироваться</button>
+          </form>
+        </div>
+          <div class="container">
+            <div class="poster">
+              <div class="poster__container">
+                <img src="./img/poster1.webp">
+                <img src="./img/poster2.webp">
+                <img src="./img/poster3.webp">
+              </div>
+              <div class="poster__info">
+                <span>Люстры</span>
+                <span>на любой вкус</span>
+                <span>для тепла и уюта дома</span>
+              </div>
+            </div>                
+          </div>
+            <section class="main__info">
+                <div class="main__info-item">
+                    <img src="./img/галка-removebg-preview.png" alt />
+                    <span>Любые люстры на ваш вкус</span>
+                </div>
+                <div class="main__info-item">
+                    <img src="./img/доставка-removebg-preview.png" alt />
+                    <span>Быстрая доставка по всей Беларуси</span>
+                </div>
+                <div class="main__info-item">
+                    <img src="./img/банккарта-removebg-preview.png" alt />
+                    <span>Оплата удобными для вас способами</span>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div class="sign-wrap-1">
+                        <h2 class="sign_word">Популярное</h2>
+                        </div>
+                        <section class="slider">
+                            <div class="prev-button">
+                                <img src="./img/стрелка влево.png" alt />
+                            </div>
+                            <div class="gallery">
+                                <div class="gallery-item">
+                                    <a href="main3.html">
+                                        <img src="./img/многоразных.png" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Paula</p>
+                                </div>                                
+                                <div class="gallery-item">
+                                    <a href="main4.html">
+                                        <img src="./img/неровнаяпалка.png" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Maytoni</p>
+                                </div>
+                                <div class="gallery-item">
+                                    <a href="main5.html">
+                                        <img src="./img/палкаскружками.png" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Vitaluce</p>
+                                </div>
+                                <div class="gallery-item">
+                                    <a href="main6.html">
+                                        <img src="./img/прямоугольник.png" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Lussole</p>
+                                </div>
+                                <div class="gallery-item">
+                                    <a href="main4.html">
+                                        <img src="./img/шарики.png" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Citilux</p>
+                                </div>
+                                <div class="gallery-item">
+                                    <a href="main5.html">
+                                        <img src="./img/штука.webp" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Smart-House</p>
+                                </div>
+                                <div class="gallery-item">
+                                    <a href="main6.html">
+                                        <img src="./img/деревянныйквадрат.webp" alt="Изображение 1" />
+                                    </a>
+                                    <p class="lustrs">Schoppen</p>
+                                </div>
+                            </div>
+                            <div class="next-button">
+                                <img src="./img/стрелка вправо.png" alt />
+                            </div>
+                        </section>
+                    </section>
+                    <div class="svetilniki">
+                        <div class="first-flex" id="tekct">Светильники для любой
+                            комнаты</div>
+                        <div class="circle-container">
+                            <div class="circle">
+                                <a href="main3.html">
+                                    <img src="./img/гостинная.png" alt="Картинка 1">
+                                </a>
+                                <p>Гостинная</p>
+                            </div>                            
+                            <div class="circle">
+                                <a href="main4.html">
+                                    <img src="./img/кухня2.png" alt="Картинка 1">
+                                </a>
+                                <p>Кухня</p>
+                            </div>                            
+                            <div class="circle">
+                                <a href="main5.html">
+                                    <img src="./img/спальня.png" alt="Картинка 1">
+                                </a>
+                                <p>Спальня</p>
+                            </div>                            
+                            <div class="circle">
+                                <a href="main6.html">
+                                    <img src="./img/ванная.png" alt="Картинка 1">
+                                </a>
+                                <p>Ванная</p>
+                            </div>                            
+                            <div class="circle">
+                                <a href="main3.html">
+                                    <img src="./img/детская4.png" alt="Картинка 1">
+                                </a>
+                                <p>Детская</p>
+                            </div>                            
+                            <div class="circle">
+                                <a href="main4.html">
+                                    <img src="./img/вешалка3-removebg-preview (1).png" alt="Картинка 1">
+                                </a>
+                                <p>Прихожая</p>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="mini__poloska"></div>
+                    <div class="c_primerami">
+                        <p>Красивые идеи для вашего интерьера</p>
+                    </div>
+                    <div class="interier">
+                        <div class="box">
+                            <img src="../Новая папка/img/11.webp"
+                                alt="Изображение">
+                            <div class="content">
+                                <div class="rectangle">
+                                    <div class="test">
+                                        <h2 class="v_dive_text_main">Скани лампы</h2>
+                                        <p class="v_dive_text">Минималистские идеи освещения для хорошего самочувствия. Рекомендации тысячи специалистов по всему миру</p>
+                                    </div>
+                                    <div class="overlay">
+                                        <div class="test_a">
+                                            <a href="main3.html">Перейти</a>
+                                        </div>
+                                    </div>
+                                </div>`
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="../Новая папка/img/22.webp"
+                                alt="Изображение">
+                            <div class="content">
+                                <div class="rectangle">
+                                    <div class="test">
+                                        <h2 class="v_dive_text_main">Винтаж лампы</h2>
+                                        <p class="v_dive_text">Ретро встречается с современностью: откройте для себя модные лампы, соответствующие винтажному интерьеру</p>
+                                    </div>
+                                    <div class="overlay">
+                                        <div class="test_a">
+                                            <a href="main4.html">Перейти</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="../Новая папка/img/33.webp"
+                                alt="Изображение">
+                            <div class="content">
+                                <div class="rectangle">
+                                    <div class="test">
+                                        <h2 class="v_dive_text_main">Лампы с абаж</h2>
+                                        <p class="v_dive_text">Тканый абажур в стиле бохо, вдохновленный природой. Созданные из экологически чистых материалов</p>
+                                    </div>
+                                    <div class="overlay">
+                                        <div class="test_a">
+                                            <a href="main5.html">Перейти</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="../Новая папка/img/44.webp"
+                                alt="Изображение">
+                            <div class="content">
+                                <div class="rectangle">
+                                    <div class="test">
+                                        <h2 class="v_dive_text_main">Дизайн лампы</h2>
+                                        <p class="v_dive_text">Вечная классика дизайна от Flos, Louis Poulsen, Artemide и других премиальных брендов. Лимитированная серия </p>
+                                    </div>
+                                    <div class="overlay">
+                                        <div class="test_a">
+                                            <a href="main6.html">Перейти</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                    <div class="tri-knopki">
+                        <div class="buttons">
+                          <button class="button-a" data-target="set1">Что нового</button>
+                          <button class="button-a" data-target="set2">Внутренне<br> освещение</button>
+                          <button class="button-a" data-target="set3">Наружное<br> освещение</button>
+                        </div>
+                        <div class="gallery-tri-knopki">
+                          <div class="set-set1">
+                            <div class="item">
+                                <a href="main6.html">
+                              <img src="../Новая папка/img/новое1.webp" alt="Image 1">
+                              </a>
+                              <div class="caption">
+                                <p>Потолочный светильник Монголей черный</p>
+                                <span class="price">$10 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main3.html">
+                              <img src="../Новая папка/img/новое2.webp" alt="Image 2">
+                              </a>
+                              <div class="caption">
+                                <p>Подвесной светильник Bardhaman Brown</p>
+                                <span class="price">$15 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main5.html">
+                              <img src="../Новая папка/img/новое3.webp" alt="Image 3">
+                            </a>
+                              <div class="caption">
+                                <p>Колыма настенный светильник Золото</p>
+                                <span class="price">$20 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main4.html">
+                              <img src="../Новая папка/img/новое4.webp" alt="Image 4">
+                            </a>
+                              <div class="caption">
+                                <p>Plafonnier Orny Bois clair single</p>
+                                <span class="price">$25 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main3.html">
+                              <img src="../Новая папка/img/новое5.webp" alt="Image 5">
+                            </a>
+                              <div class="caption">
+                                <p>Alsterbro Светодиодный потолочный светильник</p>
+                                <span class="price">$30 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="set-set2" style="display: none;">
+                            <div class="item">
+                                <a href="main3.html">
+                              <img src="../Новая папка/img/внутреннее1.webp" alt="Image 6">
+                            </a>
+                              <div class="caption">
+                                <p>Plafonnier Foggia Nickel mat</p>
+                                <span class="price">$20 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main4.html">
+                              <img src="../Новая папка/img/внутреннее2.webp" alt="Image 7">
+                            </a>
+                              <div class="caption">
+                                <p>Сатурн Хром Торшер Luminarsy</p>
+                                <span class="price">$25 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main5.html">
+                              <img src="../Новая папка/img/внутреннее3.webp" alt="Image 8">
+                            </a>
+                              <div class="caption">
+                                <p>Потолочный светильник Koppom Rust</p>
+                                <span class="price">$30 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main6.html">
+                              <img src="../Новая папка/img/внутреннее4.webp" alt="Image 9">
+                            </a>
+                              <div class="caption">
+                                <p>Настенный светильник Hofstein Sapri Chrome</p>
+                                <span class="price">$35 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main3.html">
+                              <img src="../Новая папка/img/внутреннее5.webp" alt="Image 10">
+                            </a>
+                              <div class="caption">
+                                <p>DНастольная лампа Artemide TOLOMEO</p>
+                                <span class="price">$40 <span class="non-price">$50</span></span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="set-set3" style="display: none;">
+                            <div class="item">
+                                <a href="main4.html">
+                              <img src="../Новая папка/img/внешнее1.webp" alt="Image 11">
+                            </a>
+                              <div class="caption">
+                                <p>Настенный светильник для улицы</p>
+                                <span class="price">$30 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main5.html">
+                              <img src="../Новая папка/img/внешнее2.webp" alt="Image 12">
+                            </a>
+                              <div class="caption">
+                                <p>Баулунд уличный настенный светильник </p>
+                                <span class="price">$35 <span class="non-price">$40</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main6.html">
+                              <img src="../Новая папка/img/внешнее3.webp" alt="Image 13">
+                            </a>
+                              <div class="caption">
+                                <p>Elima уличный настенный светильник</p>
+                                <span class="price">$40 <span class="non-price">$50</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main3.html">
+                              <img src="../Новая папка/img/внешнее4.webp" alt="Image 14">
+                            </a>
+                              <div class="caption">
+                                <p>Sveve уличный настенный светильник</p>
+                                <span class="price">$45 <span class="non-price">$75</span></span>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <a href="main4.html">
+                              <img src="../Новая папка/img/внешнее5.webp" alt="Image 15">
+                            </a>
+                              <div class="caption">
+                                <p>Уличный фонарь Elima Нержавеющая сталь</p>
+                                <span class="price">$50 <span class="non-price">$90</span></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <XML ID="xmlSteps">
+                          <?xml version="1.0"?>
+                          <data>
+                            <footer class="footer">
+                              <container-one class="mystical-content">
+                                <container-two class="footer-section">
+                                  <h3>О нас</h3>
+                                  <p>Кирилл Богодяж</p>
+                                  <p>+7 123 456 789</p>
+                                  <p>example@example.com</p>
+                                </container-two>
+                                <div class="footer-section">
+                                  <h3>ВУЗ и факультет</h3>
+                                  <p>БГТУ, ФИТ</p>
+                                  <h3>Группа и курс</h3>
+                                  <p>Группа 3, Курс 1</p>
+                                </div>
+                                <div class="footer-section social-icons">
+                                  <h3>Социальные сети</h3>
+                                  <div class="social-icons-container">
+                                    <a href="https://www.instagram.com/"><img src="../Новая папка/img/вк.webp" alt="Instagram"></a>
+                                    <a href="https://vk.com/"><img src="../Новая папка/img/инастаграм.svg" alt="VK"></a>
+                                    <a href="https://telegram.org/"><img src="../Новая папка/img/тг.png" alt="Telegram"></a>
+                                  </div>
+                                </div>
+                              </container-one>
+                          </footer>  
+                          </data>
+                      </XML>                                                                                                                                       
+                </body>
+            </html>
